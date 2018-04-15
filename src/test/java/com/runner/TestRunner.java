@@ -11,7 +11,7 @@ import cucumber.api.junit.*;
 	glue = {"com.stepDefinition"},
 	plugin={"html:taget/cucumber-html-report"},
 	//tags = {"~@ValidEmail","~@SortingGrid","~@MegaMenus"},
-	tags = {"~@ValidEmail","~@InvalidEmail","~@MegaMenus"},
+	//tags = {"~@ValidEmail","~@InvalidEmail","~@MegaMenus"},
 	//tags = {"~@ValidEmail","~@InvalidEmail","~@SortingGrid"},
 	dryRun=false)
 
