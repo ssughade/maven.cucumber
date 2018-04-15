@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Environment>
+	<Variable>
+		<Name>Browser</Name>
+		<Value>CHROME</Value>
+		<Description>Borwser type 'IE' or 'CHROME' OR 'FIRFOX'</Description>
+	</Variable>
+	<Variable>
+		<Name>DriverExecutablePath</Name>
+		<Value>C:\\Selenium\\Driver\\chromedriver.exe</Value>
+		<Description>Driver for 'IEDriverServer.exe' or 'chromedriver.exe' or 'geckodriver.exe'</Description>
+	</Variable>	
+	<Variable>
+		<Name>WaitTime</Name>
+		<Value>120</Value>
+		<Description>Maximum Wait time</Description>
+	</Variable>
+</Environment>

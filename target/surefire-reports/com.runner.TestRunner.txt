@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 226.09 sec <<< FAILURE! - in com.runner.TestRunner
+And Select Sort By(Scenario: Verify Grid Sorting)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: Sorting failed for 'Price: Highest first' for 'Descending'
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.stepDefinition.ECommerceWeb.select_Sort_By(ECommerceWeb.java:495)
+	at ?.And Select Sort By(SortingGrid.feature:21)
+
+Scenario: Verify Grid Sorting  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: Sorting failed for 'Price: Highest first' for 'Descending'
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.stepDefinition.ECommerceWeb.select_Sort_By(ECommerceWeb.java:495)
+	at ?.And Select Sort By(SortingGrid.feature:21)
+

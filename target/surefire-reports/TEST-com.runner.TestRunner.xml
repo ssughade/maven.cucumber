@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.runner.TestRunner" time="0.023" tests="25" errors="0" skipped="2" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ssughade\workspace\maven.cucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ssughade\workspace\maven.cucumber"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ssughade\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache Software Foundation\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files\TortoiseSVN\bin;C:\Avaya\ges\bin;C:\Avaya\Trilogy\lib;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files (x86)\WinSCP\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.5.3\bin;C:\Program Files\Java\jre1.8.0_121\bin;C:\Users\ssughade\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files\Apache Software Foundation\apache-maven-3.5.3\bin\../conf"/>
+    <property name="BrowserName" value="FireFox"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache Software Foundation\apache-maven-3.5.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ssughade"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ssughade"/>
+    <property name="java.class.path" value="C:\Program Files\Apache Software Foundation\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_121"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install test -DBrowserName=FireFox"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache Software Foundation\apache-maven-3.5.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given Open ecommerce website" classname="Scenario: Verify Invalid Register users" time="0.01"/>
+  <testcase name="Then Register user with valid email" classname="Scenario: Verify Invalid Register users" time="0"/>
+  <testcase name="Then Ecommer page should shows error and should nog logged in" classname="Scenario: Verify Invalid Register users" time="0"/>
+  <testcase name="And Close Browser" classname="Scenario: Verify Invalid Register users" time="0.001"/>
+  <testcase name="Scenario: Verify Invalid Register users" classname="Scenario: Verify Invalid Register users" time="0.001"/>
+  <testcase name="Given Open ecommerce website" classname="Scenario: Login with registered email" time="0"/>
+  <testcase name="Then Register user with valid email" classname="Scenario: Login with registered email" time="0"/>
+  <testcase name="Then Register should be registered successfully" classname="Scenario: Login with registered email" time="0"/>
+  <testcase name="Then Sign Out" classname="Scenario: Login with registered email" time="0"/>
+  <testcase name="Then Close Browser" classname="Scenario: Login with registered email" time="0"/>
+  <testcase name="Scenario: Login with registered email" classname="Scenario: Login with registered email" time="0.001"/>
+  <testcase name="Given Open ecommerce website" classname="Scenario: Verify Grid Sorting" time="0"/>
+  <testcase name="Then Register user with valid email" classname="Scenario: Verify Grid Sorting" time="0"/>
+  <testcase name="And Verify Mega Menus" classname="Scenario: Verify Grid Sorting" time="0"/>
+  <testcase name="And Select Sort By" classname="Scenario: Verify Grid Sorting" time="0"/>
+  <testcase name="And Select Sort By" classname="Scenario: Verify Grid Sorting" time="0.006">
+    <failure message="Sorting failed for &apos;Price: Highest first&apos; for &apos;Descending&apos;" type="java.lang.AssertionError">java.lang.AssertionError: Sorting failed for 'Price: Highest first' for 'Descending'
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.stepDefinition.ECommerceWeb.select_Sort_By(ECommerceWeb.java:495)
+	at ✽.And Select Sort By(SortingGrid.feature:21)
+</failure>
+    <system-out><![CDATA[root of xml fileObject
+==========================
+
+$16.40
+
+$28.98
+
+$30.50
+root of xml fileObject
+==========================
+Already value selected Price: Lowest first
+
+$16.40
+
+$28.98
+
+$30.50
+30.5 16.4
+]]></system-out>
+    <system-err><![CDATA[1523827176173	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Verify Grid Sorting" classname="Scenario: Verify Grid Sorting" time="0.007">
+    <failure message="Sorting failed for &apos;Price: Highest first&apos; for &apos;Descending&apos;" type="java.lang.AssertionError">java.lang.AssertionError: Sorting failed for 'Price: Highest first' for 'Descending'
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.stepDefinition.ECommerceWeb.select_Sort_By(ECommerceWeb.java:495)
+	at ✽.And Select Sort By(SortingGrid.feature:21)
+</failure>
+  </testcase>
+  <testcase name="Then Sign Out" classname="Scenario: Verify Grid Sorting" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Close Browser" classname="Scenario: Verify Grid Sorting" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given Open ecommerce website" classname="Scenario: Verify ecommer web Mega Menus" time="0"/>
+  <testcase name="Then Register user with valid email" classname="Scenario: Verify ecommer web Mega Menus" time="0"/>
+  <testcase name="And Verify Mega Menus" classname="Scenario: Verify ecommer web Mega Menus" time="0.001"/>
+  <testcase name="Then Sign Out" classname="Scenario: Verify ecommer web Mega Menus" time="0.001"/>
+  <testcase name="Then Close Browser" classname="Scenario: Verify ecommer web Mega Menus" time="0"/>
+  <testcase name="Scenario: Verify ecommer web Mega Menus" classname="Scenario: Verify ecommer web Mega Menus" time="0.001"/>
+</testsuite>

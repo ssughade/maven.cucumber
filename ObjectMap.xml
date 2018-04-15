@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Object>
+	<Variable>
+		<Name>Signin</Name>
+		<Value>//a[@title='Log in to your customer account']</Value>
+		<Description>This is Sign in top left corner of the page</Description>
+	</Variable>
+	<Variable>
+		<Name>Emailaddress</Name>
+		<Value>id=email</Value>
+		<Description>This is Email address</Description>
+	</Variable>	
+	<Variable>
+		<Name>Password</Name>
+		<Value>id=passwd</Value>
+		<Description>This is Password</Description>
+	</Variable>
+	<Variable>
+		<Name>SignInButton</Name>
+		<Value>id=SubmitLogin</Value>
+		<Description>This is Sign In button for login register user</Description>
+	</Variable>
+	<Variable>
+		<Name>ErrorMessage</Name>
+		<Value>cssSelector|div.alert.alert-danger</Value>
+		<Description>This is Locator for error message for invalid email</Description>
+	</Variable>
+	<Variable>
+		<Name>MainMenu</Name>
+		<Value>cssSelector|ul.sf-menu.clearfix.menu-content.sf-js-enabled.sf-arrows</Value>
+		<Description>This is locatorfor for main menu</Description>
+	</Variable>
+	<Variable>
+		<Name>SubMenu</Name>
+		<Value>ul.submenu-container.clearfix.first-in-line-xs</Value>
+		<Description>This is CSS locator for sub menu</Description>
+	</Variable>
+	<Variable>
+		<Name>SortBy</Name>
+		<Value>id=selectProductSort</Value>
+		<Description>This is locator for Sort by</Description>
+	</Variable>	
+	<Variable>
+		<Name>Price</Name>
+		<Value>//span[@itemprop='price']</Value>
+		<Description>This is locator for Sort by</Description>
+	</Variable>	
+	<Variable>
+		<Name>SignOut</Name>
+		<Value>//a[@title='Log me out']</Value>
+		<Description>This is locator for Sign Out link</Description>
+	</Variable>	
+</Object>
